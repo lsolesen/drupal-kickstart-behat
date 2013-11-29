@@ -5,3 +5,6 @@ default:
     Drupal\DrupalExtension\Extension:
       drush:
         alias: self
+      drupal:
+        drupal_root: "/home/travis/build/lsolesen/drupal-kickstart-behat"
+        
